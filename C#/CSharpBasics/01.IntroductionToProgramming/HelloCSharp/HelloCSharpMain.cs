@@ -1,0 +1,14 @@
+﻿/*Create, compile and run a “Hello C#” console application. 
+ * Ensure you have named the application well (e.g. “”HelloCSharp”).*/
+namespace HelloCSharp
+{
+    using System;
+
+    class HelloCSharpMain
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello C#");
+        }
+    }
+}
