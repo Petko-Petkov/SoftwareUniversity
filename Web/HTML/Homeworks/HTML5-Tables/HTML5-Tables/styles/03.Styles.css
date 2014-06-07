@@ -1,0 +1,17 @@
+﻿table{
+    border:solid;
+    border-width:1px;
+}
+
+    table td{
+        border:solid;
+        border-width:1px;
+        font-size:60px;
+        font-family:Calibri;        
+        padding:10px;
+        height:74px;
+    }
+
+img {
+    width:160px;
+}

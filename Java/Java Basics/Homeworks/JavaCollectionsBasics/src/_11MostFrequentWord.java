@@ -42,9 +42,7 @@ public class _11MostFrequentWord {
 		for (Map.Entry<String, Integer> entry : wordsMap.entrySet()) {
 			if (entry.getValue()==mostFrequent) {
 				System.out.println(MessageFormat.format("{0} -> {1}", entry.getKey(), entry.getValue()));
-			}
-			
-		}
-		
+			}			
+		}		
 	}
 }

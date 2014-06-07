@@ -1,0 +1,69 @@
+﻿body{
+    font-family:Tahoma;
+    font-size:20px;
+}
+table {
+    border:solid;
+    border-width:1px;
+}
+
+    .small td {
+    height:45px;
+    font-size:12px;
+    text-align:center;
+    font-weight:bold;
+    }
+
+    table table {
+        margin:3x;
+    }
+   
+    table th {
+        font-size:54px;
+        border:solid;
+        border-width:1px;
+        height:100px;
+        padding:5px;
+    }
+ 
+    table td {
+        border:solid;
+        border-width:1px;
+        height:100px;
+        width:100px;
+        padding:5px;
+    }
+
+    .UpperLeft {
+        vertical-align:sub;
+    }
+
+    .UpperRight {
+        vertical-align:sub;
+        text-align:right;
+    }
+
+    .UpperCenter {
+        vertical-align:sub;
+        text-align:center;
+    }
+
+    .BottomCenter{
+        vertical-align:bottom;
+        text-align:center;
+    }
+
+    .BottomLeft {
+        vertical-align:bottom;
+    }
+
+    .BottomRight {
+        vertical-align:bottom;
+        text-align:right;
+    }
+
+    .CenterRight{
+        text-align:right;
+        font-size:30px;
+    }
+   

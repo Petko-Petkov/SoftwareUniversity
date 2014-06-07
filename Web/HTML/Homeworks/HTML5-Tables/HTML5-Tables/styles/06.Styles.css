@@ -1,0 +1,72 @@
+﻿body button{
+    font-family:Tahoma;
+    font-size:20px;    
+}
+    table {
+        border:solid;
+        border-width:1px;
+    }
+        table th {
+            font-size:54px;
+            border:solid;
+            border-width:1px;
+            height:100px;
+            padding-left:4px;
+            padding-right:5px;
+        }
+        
+            table th button{
+                width:490px;
+                height:95px;
+                color:blue;
+                font-weight:bold;
+                font-size:32px;    
+            }
+
+        table td {
+                border:solid;
+                border-width:1px;
+                height:120px;
+                width:120px;                
+            }
+
+        table table {
+                border:none;
+            }
+    
+            .small td {
+            border:none;
+            height:45px;            
+            text-align:center;
+            font-weight:bold;
+            }
+
+            .small button{
+                width:115px;
+                height:55px;
+                color:blue;
+                font-size:12px;
+            }
+
+.double button{
+    width:235px;
+    height:114px;
+    margin-left:6px;
+    color:blue;
+}
+
+.single button{
+    width:110px;
+    height:114px;
+    margin-left:5px;
+    color:blue;
+}
+
+.triple button{
+    width:360px;
+    height:114px;
+    margin-left:6px;
+    color:blue;
+    font-size:24px;
+    text-align:right;
+}

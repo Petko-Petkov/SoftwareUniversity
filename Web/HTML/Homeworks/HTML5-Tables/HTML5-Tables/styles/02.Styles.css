@@ -1,0 +1,25 @@
+﻿table {
+    border: solid;
+    border-width: 1px;
+    font-family: Calibri;
+}
+
+    table thead {
+        font-size: 28px;
+    }
+
+    table tfoot {
+        text-align:right;
+        border: solid;
+        border-width: 1px;
+    }
+
+td {
+    border: solid;
+    border-width: 1px;
+}
+
+th {
+    border: solid;
+    border-width: 1px;
+}
