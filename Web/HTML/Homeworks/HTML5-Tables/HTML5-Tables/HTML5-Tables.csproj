@@ -59,7 +59,9 @@
   <ItemGroup>
     <Content Include="01.SimpleTable.html" />
     <Content Include="03.NestedTables.html" />
+    <Content Include="04.WebsiteHeader.html" />
     <Content Include="05.LifeInSoftUni.html" />
+    <Content Include="07.Calculator.html" />
     <Content Include="styles\02.Styles.css" />
     <Content Include="06.LifeInSoftUniKeyboard.html" />
     <None Include="Web.Debug.config">
@@ -72,8 +74,10 @@
   <ItemGroup>
     <Content Include="02.ExamResults.html" />
     <Content Include="styles\03.Styles.css" />
+    <Content Include="styles\04.Styles.css" />
     <Content Include="styles\05.Styles.css" />
     <Content Include="styles\06.Styles.css" />
+    <Content Include="styles\07.Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
