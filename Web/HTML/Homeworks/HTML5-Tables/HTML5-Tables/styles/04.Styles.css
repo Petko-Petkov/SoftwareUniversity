@@ -1,0 +1,72 @@
+﻿div {
+    width: 1280px;
+    height: 130px;
+    color: #DCE1E7;
+    background-color: #234465;
+    font-family: Tahoma;
+}
+
+table td {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table tr:first-child td {
+    text-align: right;
+    padding-top: 9px;
+}
+
+table tr:first-child table td:last-child {
+    width: 200px;
+}
+
+table tr:last-child td {
+    text-align: center;
+}
+
+div table tr td form input{
+    margin:0px;
+    padding:0px;
+}
+
+#searchIcon {
+    background:url(../images/SearchIcon.png);
+}
+
+form div{
+    height:30px;
+    width:200px;
+    display:block;
+}
+    div table tr td form input:first-child {
+        height: 28px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: left;
+    }
+
+
+#user {
+    text-align: left;
+}
+
+#text {
+    vertical-align: top;
+}
+
+.fold-menu {
+    position: absolute;
+    margin-top: 8px;
+    display: none;
+    background-color: #1d3955;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+}

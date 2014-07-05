@@ -1,0 +1,56 @@
+body footer {
+  width: 100%;
+  background-color: #234465;
+  color: #fff;
+  font-family: Tahoma; }
+  body footer #wrapper {
+    left: 7rem;
+    position: relative;
+    width: 80%; }
+  body footer section {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5rem 6rem 5rem 0;
+    top: 3rem; }
+    body footer section article h3 {
+      text-transform: uppercase;
+      color: #FF9C00;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 5px; }
+    body footer section article ul li {
+      line-height: 1.5rem; }
+      body footer section article ul li a {
+        color: white;
+        font-size: 1.2rem; }
+      body footer section article ul li a:hover {
+        color: #FF9C00; }
+    body footer section article p {
+      line-height: 1.5rem;
+      font-size: 1.3rem;
+      margin-bottom: 10px; }
+    body footer section article div a {
+      margin: 0 5px 0 0; }
+    body footer section article div a:hover {
+      opacity: 0.6;
+      transition: all 0.5s ease; }
+    body footer section .button {
+      width: 150px;
+      border: 2px solid #FF9C00;
+      display: block;
+      padding: 1rem 0;
+      font-size: 1.6rem;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top: 2rem;
+      margin: 10px auto; }
+    body footer section .button:hover {
+      transition: all 0.5s;
+      background: #FF9C00; }
+    body footer section iframe {
+      display: inline-block;
+      vertical-align: top;
+      background: #fff; }
+

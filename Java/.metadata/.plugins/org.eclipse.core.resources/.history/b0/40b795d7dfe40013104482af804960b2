@@ -1,0 +1,10 @@
+
+public class Task01 {
+
+	public static void main(String[] args) {
+		int sum = 40+25+35+01+57;
+		System.out.println(sum / 60);
+
+	}
+
+}

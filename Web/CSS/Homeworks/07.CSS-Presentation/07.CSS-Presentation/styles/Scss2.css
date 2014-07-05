@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+  background: url(../img/formBackground.jpg) no-repeat; }
+
+#wrapper {
+  width: auto;
+  max-width: 480px; }
+  #wrapper input:not([type="radio"]) {
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px; }
+  #wrapper input[type="submit"] {
+    width: 80px;
+    margin: 15px auto;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #03041c;
+    display: block; }
+  #wrapper img {
+    width: 25px; }
+  #wrapper label {
+    display: inline-block;
+    width: 120px;
+    margin-left: 10px; }
+  #wrapper .radio {
+    margin: 0;
+    width: auto; }
+  #wrapper #radio {
+    width: auto;
+    max-width: 80%;
+    margin: 15px auto; }
+  #wrapper h1 {
+    color: #fff;
+    margin-left: 20px; }
+  #wrapper h6 {
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 0; }
+  #wrapper textarea {
+    width: 200px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px; }
+  #wrapper #address {
+    margin-top: 10px;
+    vertical-align: top; }
+  #wrapper .form-wrapper {
+    width: auto;
+    max-width: 440px;
+    margin: 5px auto;
+    border: 1px solid #fff;
+    background-color: rgba(192, 192, 192, 0.4);
+    border-radius: 5px; }
+

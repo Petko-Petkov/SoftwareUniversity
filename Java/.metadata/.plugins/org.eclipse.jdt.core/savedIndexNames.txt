@@ -1,0 +1,13 @@
+INDEX VERSION 1.127+D:\Pecata\Documents\Programming\SoftwareUniversity\Java\.metadata\.plugins\org.eclipse.jdt.core
+240584207.index
+3016554533.index
+1580816946.index
+2270889765.index
+1332341772.index
+1233827126.index
+342118981.index
+3847782219.index
+547041619.index
+1755973537.index
+4179004994.index
+424758845.index

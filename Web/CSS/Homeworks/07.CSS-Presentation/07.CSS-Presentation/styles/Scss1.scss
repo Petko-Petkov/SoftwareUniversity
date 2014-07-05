@@ -1,0 +1,146 @@
+@mixin baloon {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    margin: 10px;
+    width: 50%;
+    border-right: 15px solid green;
+    border-bottom: 15px double blue;
+    border-left: 15px dashed red;
+    border-top: 15px dotted yellow;
+
+    p {
+        font-size: 3.5em;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 20px 15px 15px #999;
+    }
+
+    #big-baloon {
+        @include baloon;
+        left: 49%;
+        top: 15%;
+        border-radius: 75px;
+        width: 180px;
+        height: 100px;
+        background-color: rgba(8,8,8,0.3);
+
+        div {
+            @include baloon;
+            border: 3px dashed #fff;
+            display: inline-block;
+            margin: 3% 5%;
+            width: 90%;
+            height: 90%;
+            border-radius: 60px;
+            text-align: center;
+            color: white;
+
+            span {
+                display: block;
+                position: absolute;
+                vertical-align: central;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 2em;
+                font-weight: bold;
+            }
+        }
+    }
+
+    #middle-baloon {
+        @include baloon;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        top: 45%;
+        left: 42%;
+        background-color: rgba(8,8,8,0.3);
+
+        div {
+            @include baloon;
+            border: 3px dashed #fff;
+            display: inline-block;
+            margin: 3% 5%;
+            width: 90%;
+            height: 90%;
+            border-radius: 60px;
+        }
+    }
+
+    #small-baloon{
+
+        @include baloon;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(8,8,8,0.3);
+        border-radius: 50%;
+        top:57%;
+        left:38%;
+
+
+        div{
+              @include baloon;
+            border: 3px dashed #fff;
+            display: inline-block;
+            margin: 4%;
+            width: 90%;
+            height: 90%;
+            border-radius: 60px;
+        }
+    }
+
+    #blue {
+        margin: 5% auto;
+        width: 80%;
+        border-radius: 81px;
+        border: 3px solid blue;
+
+        #green {
+            margin: 0 auto;
+            border-radius: 77px;
+            border: 3px solid green;
+
+            #yellow {
+                margin: 0 auto;
+                border-radius: 76px;
+                border: 3px solid yellow;
+
+                #red {
+                    margin: 0 auto;
+                    border-radius: 75px;
+                    border: 3px solid red;
+
+                    p {
+                        font-size: 1.1em;
+                        text-align: center;
+                        text-shadow: 20px 15px 20px #999;
+                    }
+
+                    #span-wrapper {
+                        margin: 35px auto 15px auto;
+                        width: 80%;
+
+                        span {
+                            background-color: #d89211;
+                            border: 4px outset darkgoldenrod;
+                            font-size: 1.2em;
+                            padding: 0 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

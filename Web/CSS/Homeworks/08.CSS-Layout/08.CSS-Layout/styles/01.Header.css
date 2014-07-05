@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: Tahoma; }
+  body a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem; }
+  body li {
+    list-style-type: none;
+    margin: 0 5px; }
+  body header {
+    text-align: right;
+    background: #234465;
+    height: 100px; }
+    body header #wrapper {
+      margin: 0 auto;
+      width: auto;
+      height: auto;
+      max-height: 150px;
+      max-width: 1240px;
+      background: #234465;
+      border: 1px solid green; }
+      body header #wrapper #logo {
+        display: inline-block;
+        float: left;
+        margin: 5px auto; }
+      body header #wrapper #nav-search {
+        float: right;
+        margin-top: 5px;
+        display: inline-block;
+        vertical-align: top; }
+        body header #wrapper #nav-search #search > * {
+          display: inline-block;
+          vertical-align: middle; }
+        body header #wrapper #nav-search #search {
+          width: auto; }
+          body header #wrapper #nav-search #search ul {
+            margin: 0 10px 0 -40px; }
+          body header #wrapper #nav-search #search form {
+            padding: 0;
+            border-radius: 5px;
+            margin: 0 10px 0 0;
+            background: #fff; }
+            body header #wrapper #nav-search #search form img {
+              margin: 0;
+              padding: 0;
+              width: 15px; }
+            body header #wrapper #nav-search #search form input {
+              height: 1.4rem;
+              border: none;
+              border-radius: 5px;
+              width: 250px;
+              padding-left: 10px;
+              margin: 0;
+              outline: none; }
+            body header #wrapper #nav-search #search form button {
+              height: 1.5rem;
+              padding: 0 5px;
+              margin: 0;
+              border-bottom-right-radius: 5px;
+              border-top-right-radius: 5px;
+              background: none;
+              border: none;
+              border-left: 1px solid #ccc; }
+            body header #wrapper #nav-search #search form button:hover {
+              cursor: pointer; }
+        body header #wrapper #nav-search #nav {
+          background: #234465;
+          margin-top: 20px; }
+          body header #wrapper #nav-search #nav ul li {
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 6px; }
+            body header #wrapper #nav-search #nav ul li ul li {
+              width: 250px; }
+            body header #wrapper #nav-search #nav ul li a {
+              color: #fff;
+              font-size: 0.9rem; }
+          body header #wrapper #nav-search #nav ul .folding-menu {
+            display: none;
+            position: absolute;
+            width: 300px;
+            background: #234465;
+            margin: 8px 0 0 0;
+            padding: 0 0 0 5px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px; }
+          body header #wrapper #nav-search #nav ul li:hover {
+            background-color: #FF9C00; }
+            body header #wrapper #nav-search #nav ul li:hover .folding-menu {
+              display: block;
+              text-align: left;
+              position: absolute; }
+              body header #wrapper #nav-search #nav ul li:hover .folding-menu a {
+                display: block;
+                padding: 5px;
+                border-bottom: solid 1px #44607C;
+                font-size: 0.8rem; }
+

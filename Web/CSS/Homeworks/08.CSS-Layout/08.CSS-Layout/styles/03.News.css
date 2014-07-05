@@ -1,0 +1,87 @@
+body {
+  font-size: 1rem;
+  background: #eee;
+  font-family: Tahoma; }
+  body #wrapper {
+    width: auto;
+    max-width: 1120px;
+    margin: 0 auto; }
+    body #wrapper section:nth-child(3) {
+      margin-right: 0; }
+    body #wrapper section {
+      display: inline-block;
+      width: 320px;
+      height: 350px;
+      vertical-align: top;
+      padding: 20px;
+      margin-right: 15px;
+      box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px 1px;
+      background: #fff; }
+      body #wrapper section header {
+        height: 90px;
+        margin-bottom: 5px;
+        padding: 0;
+        border-bottom: 1px solid #eee; }
+        body #wrapper section header h3 {
+          font-size: 1.5rem;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-align: left;
+          color: #2A6496;
+          height: 35px; }
+        body #wrapper section header span {
+          display: block;
+          vertical-align: baseline; }
+        body #wrapper section header .date {
+          text-align: right;
+          padding: 5px 0 0 0; }
+        body #wrapper section header .author {
+          padding: 10px 0 0 0;
+          font-size: 1.4rem;
+          color: #5A5A5A; }
+      body #wrapper section article {
+        padding: 10px 0;
+        margin: 0 auto;
+        width: 100%;
+        height: 180px;
+        color: #5A5A5A;
+        font-size: 1.4rem;
+        border-bottom: 1px solid #eee; }
+        body #wrapper section article figure figcaption {
+          margin: 10px 0 20px 0; }
+        body #wrapper section article figure img {
+          height: 128px; }
+      body #wrapper section footer {
+        font-size: 1.2rem;
+        margin: 20px 0; }
+        body #wrapper section footer span strong {
+          font-weight: bold; }
+        body #wrapper section footer span a {
+          color: #5A5A5A; }
+        body #wrapper section footer span a:hover {
+          color: #454545;
+          text-decoration: underline; }
+      body #wrapper section .hidden {
+        clip: rect(1px 1px 1px 1px);
+        position: absolute; }
+    body #wrapper .button {
+      width: 20px;
+      height: 20px;
+      background: #4CA0DB;
+      color: #fff;
+      display: inline-block;
+      float: left;
+      border: 1px solid #fff;
+      padding: 5px;
+      text-align: center;
+      border-collapse: collapse;
+      margin-left: -1px;
+      margin-top: 50px; }
+    body #wrapper .button:hover {
+      opacity: 0.5;
+      outline: 1px solid #4CA0DB;
+      transition: ease 0.5s;
+      border: 1px solid #4CA0DB; }
+    body #wrapper .default {
+      background: #FF9C00; }
+

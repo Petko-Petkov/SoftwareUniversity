@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Task01 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int hours = 0;
+		int minutes = 0;
+		ArrayList<String> strList = new ArrayList<>();
+		while (true) {
+
+			if (input.nextLine() == "End") {
+				break;
+			} else {
+				strList.add(input.nextLine());
+			}			
+		}
+		System.out.println(strList);
+	}
+
+}

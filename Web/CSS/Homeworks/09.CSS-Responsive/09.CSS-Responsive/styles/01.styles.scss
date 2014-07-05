@@ -1,0 +1,266 @@
+body {
+    background: #6698FF;
+    font-family: Tahoma;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    #wrapper > header {
+        border-bottom: 1px solid #000;
+        height: 110px;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    #wrapper {
+        width: auto;
+        max-width: 960px;
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+
+        header {
+            h1 {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    margin: 10px;
+                    font-size: 2.2rem;
+                }
+
+                margin: 0;
+                padding: 0;
+            }
+
+            nav {
+                margin: 0 10px 0 0;
+                padding: 0;
+
+                ul {
+                    float: right;
+
+                    li {
+                        display: inline-block;
+                        border: 1px solid #000;
+                        background: #FFFFFF;
+                        padding: 5px 10px;
+
+                        a {
+                            color: #000;
+                            text-decoration: none;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        section {
+
+            article {
+                border: 1px solid #000;
+                background: #E0EAFE;
+                margin: 10px 0 10px 0;
+                width: 73%;
+                padding: 10px;
+                display: inline-block;
+                float: left;
+                vertical-align: top;
+
+                header {
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                div {
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        aside {
+            width: 22%;
+            display: inline-block;
+            border: 1px solid #000;
+            background: #E0EAFE;
+            vertical-align: top;
+            margin: 10px 5px 10px 15px;
+
+            div {
+                ul {
+                    padding: 0 9px;
+                    list-style-type: none;
+
+                    li {
+                        margin-bottom: 9px;
+
+                        a {
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            clear: both;
+            display: block;
+            border: 1px solid #000;
+            background: #E0EAFE;
+            margin-bottom: 25px;
+
+            h2 {
+                margin-bottom: 5px;
+                text-align: center;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 960px) and (min-width:780px) {
+        #wrapper {
+            header {
+                h1 {
+                    a {
+                        img {
+                            display: inline-block;
+                            float: left;
+                        }
+
+                        span {
+                            display: inline-block;
+                            margin: 15px;
+                        }
+                    }
+                }
+            }
+
+            aside {
+                width: 20%;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 780px) {
+        #wrapper {
+            header {
+                h1 {
+                    a {
+                        img {
+                            display: inline-block;
+                            float: left;
+                            margin-left: 10px;
+                        }
+
+                        span {
+                            display: inline-block;
+                            margin: 40px 10px 0 0;
+                            font-size: 1.8rem;
+                            float: right;
+                        }
+                    }
+                }
+            }
+
+            section {
+                article {
+                    width: 96%;
+                    margin: 10px auto;
+                }
+            }
+
+            aside {
+                width: 99%;
+                margin: 10px auto;
+
+                div {
+
+                    ul {
+                        li {
+                            width: 23%;
+                            display: inline-block;
+                            margin-right: 2%;
+                            float: left;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        #wrapper {
+            header {
+                height:140px;
+                h1 {
+                    a {
+                        margin: 0;
+                        padding: 0;
+
+                        img {
+                            display: block;
+                            float: none;
+                            margin: 0 auto;
+                        }
+
+                        span {
+                            display: block;
+                            float: none;
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+
+                nav {
+
+                    ul {
+                        display: block;
+                        width:90%;
+
+                        li {
+                            display: block;
+                            width:90%;
+                            height: 30px;
+                            a{
+                                display: block;
+                                width:100%;
+                                height: 100%;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+
+            section{
+                article{
+                    width:93%;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 350px) {
+
+        #wrapper{
+            header{
+                height:175px;
+            }
+
+            section{
+                article{
+                    width:91%;
+                }
+            }
+        }
+        }
+
+}

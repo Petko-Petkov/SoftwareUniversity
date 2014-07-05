@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Tahoma;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    li {
+        list-style-type: none;
+        margin: 0 5px;
+    }
+
+    header {
+        text-align: right;
+        background: #234465;
+        height: 100px;
+
+        #wrapper {
+            margin: 0 auto;
+            width: auto;
+            height: auto;
+            max-height: 150px;
+            max-width: 1240px;
+            background: #234465;
+            border: 1px solid green;
+
+            #logo {
+                display: inline-block;
+                float: left;
+                margin: 5px auto;
+            }
+
+            #nav-search {
+                float: right;
+                margin-top: 5px;
+                display: inline-block;
+                vertical-align: top;
+
+                #search > * {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                #search {
+                    width: auto;
+
+                    ul {
+                        margin: 0 10px 0 -40px;
+                    }
+
+                    form {
+                        padding: 0;
+                        border-radius: 5px;
+                        margin: 0 10px 0 0;
+                        background: #fff;
+
+                        img {
+                            margin: 0;
+                            padding: 0;
+                            width: 15px;
+                        }
+
+                        input {
+                            height: 1.4rem;
+                            border: none;
+                            border-radius: 5px;
+                            width: 250px;
+                            padding-left: 10px;
+                            margin: 0;
+                            outline: none;
+                        }
+
+                        button {
+                            height: 1.5rem;
+                            padding: 0 5px;
+                            margin: 0;
+                            border-bottom-right-radius: 5px;
+                            border-top-right-radius: 5px;
+                            background: none;
+                            border: none;
+                            border-left: 1px solid #ccc;
+                        }
+
+                        button:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+
+                #nav {
+                    background: #234465;
+                    margin-top: 20px;
+
+                    ul {
+                        li {
+                            display: inline-block;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            padding: 8px;
+                            border-radius: 6px;
+
+                            ul li {
+                                width: 250px;
+                            }
+
+                            a {
+                                color: #fff;
+                                font-size: 0.9rem;
+                            }
+                        }
+
+                        .folding-menu {
+                            display: none;
+                            position: absolute;
+                            width: 300px;
+                            background: #234465;
+                            margin: 8px 0 0 0;
+                            padding: 0 0 0 5px;
+                            border-bottom-right-radius: 10px;
+                            border-bottom-left-radius: 10px;
+                        }
+
+                        li:hover {
+                            background-color: #FF9C00;
+
+                            .folding-menu {
+                                display: block;
+                                text-align: left;
+                                position: absolute;
+
+                                a {
+                                    display: block;
+                                    padding: 5px;
+                                    border-bottom: solid 1px #44607C;
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

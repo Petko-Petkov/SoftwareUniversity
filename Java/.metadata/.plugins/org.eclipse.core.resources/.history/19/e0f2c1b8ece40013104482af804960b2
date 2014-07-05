@@ -1,0 +1,26 @@
+import java.text.MessageFormat;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Task01 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int minutes = 0;
+		String[] string = input.nextLine().split(":");
+		minutes += Integer.parseInt(string[0])*60;
+		minutes += Integer.parseInt(string[1]);
+		ArrayList<String> strList = new ArrayList<>();
+		while (true) {
+			if (input.nextLine().equals("End")) {
+				break;
+			} else {
+				string = input.nextLine().split(":");
+				minutes += Integer.parseInt(string[0])*60;
+				minutes += Integer.parseInt(string[1]);
+			}			
+		}
+		System.out.println(MessageFormat.format("{0}:{1}", minutes / 60, minutes % 60));
+	}
+
+}

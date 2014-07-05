@@ -1,0 +1,101 @@
+@mixin border {
+    border: 2px solid #111;
+}
+
+@mixin eye {
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+}
+
+@mixin apple {
+    width: 20px;
+    height: 20px;
+    background-color: #111;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#face {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    @include border;
+    border-radius: 200px;
+    position: absolute;
+}
+
+#left-eye {
+    @include border;
+    @include eye;
+    left: 20%;
+    div {
+        @include apple;
+        top: 55%;
+        left: 60%;
+    }
+}
+
+#right-eye {
+    @include border;
+    @include eye;
+    right: 20%;
+    div {
+        @include apple;
+    }
+}
+
+#nose {
+    @include border;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    top: 44%;
+    left: 44%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#mouth {
+    @include border;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    background-color: #fff;
+    top: 62%;
+    left: 25%;
+    border-radius: 100px;
+}
+
+#left-tooth {
+    @include border;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 30%;
+    top: -2px;
+}
+
+#right-tooth{ 
+    @include border;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 49%;
+    top: -2px;
+}
