@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="03-BootstrapPage.html" />
     <Content Include="styles\01.styles.scss" />
     <Content Include="styles\01.styles.css.map">
       <DependentUpon>01.styles.css</DependentUpon>
@@ -77,6 +78,8 @@
     <Content Include="styles\01.styles.min.css">
       <DependentUpon>01.styles.css</DependentUpon>
     </Content>
+    <Content Include="styles\02.styles.css" />
+    <Content Include="styles\bootstrap.min.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
