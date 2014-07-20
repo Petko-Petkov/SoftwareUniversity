@@ -1,0 +1,63 @@
+/* Add here your responsive CSS */
+
+@media only screen and (max-width: 780px) {
+
+    .body{
+        width: 90%;
+        max-width: 780px;
+        box-sizing: border-box;
+    }
+    .mainHeader img {
+        max-width: 780px;
+        width: 100%;
+        height: auto;
+    }
+
+    .mainHeader nav {
+        background: #555;
+        height: 120px;
+    }
+
+        .mainHeader nav ul {
+            padding: 0;
+        }
+
+            .mainHeader nav ul li {
+                display: block;
+                padding: 0;
+                width: 100%;
+            }
+
+                .mainHeader nav ul li a {
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    display: block;
+                }
+
+        .mainHeader nav a:link, .mainHeader nav a:visited {
+            color: #fff;
+            display:block;
+            height: 30px;
+            padding: 0;
+            text-decoration: none;
+        }
+
+    .mainContent {
+    }
+
+        .mainContent .content {
+            padding: 0;
+            display: block;
+            float: none;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .mainContent aside {
+            display: block;
+            float: none;
+            width: 100%;
+            margin: 10px auto;
+        }
+}

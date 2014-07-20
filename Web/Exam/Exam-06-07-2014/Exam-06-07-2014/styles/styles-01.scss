@@ -1,0 +1,59 @@
+body
+{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    #wrapper{
+
+        .book{
+            width:145px;
+            display: inline-block;
+            vertical-align: top;
+
+            figure{
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+                a:hover{
+                    color: #999;
+                }
+                margin: 0 auto;
+                padding: 0;
+                width: auto;
+
+                figcaption{
+                    font-size: 11px;
+                    margin: 10px 0 5px 0;
+                    text-transform: uppercase;
+                }
+            }
+
+            .author{
+                font-size: 11px;
+                color: #666;
+                display: block;
+            }
+            .price{
+                font-size: 11px;
+                color: #8F0509;
+                font-weight: bold;  
+            }
+
+            button{
+                margin-top: 5px;
+                width: 80%;
+                border: none;
+                outline: none;
+                background-image: url('../img/shopping-cart-inactive.png');
+                border-radius: 5px;
+                span{
+                    font-size: 10px;
+                }
+            }
+
+            button:hover{
+                cursor: pointer;
+                background-image: url('../img/shopping-cart-active.png');
+            }
+        }
+    }
+}

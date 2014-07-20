@@ -1,0 +1,79 @@
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0; }
+  body header {
+    background: #eee;
+    height: 100px;
+    border-bottom: 1px solid #E6E6E6; }
+    body header #header-wrapper {
+      background-color: #eee;
+      width: 920px;
+      margin: 0 auto; }
+      body header #header-wrapper img {
+        display: inline-block;
+        float: left;
+        margin-top: 15px; }
+      body header #header-wrapper nav {
+        display: block;
+        float: right; }
+        body header #header-wrapper nav ul {
+          display: inline-block;
+          float: left; }
+          body header #header-wrapper nav ul #default a {
+            color: #F99600; }
+          body header #header-wrapper nav ul li {
+            display: inline-block;
+            margin: 20px 25px; }
+            body header #header-wrapper nav ul li a {
+              text-decoration: none;
+              padding: 20px;
+              border-radius: 10px;
+              color: #818181;
+              font-size: 16px;
+              font-weight: bold; }
+            body header #header-wrapper nav ul li a:hover {
+              background-color: #CAD1D1; }
+  body #wrapper {
+    clear: both;
+    width: 840px;
+    margin: 0 auto; }
+    body #wrapper h1 {
+      font-size: 1.8rem;
+      font-weight: normal;
+      margin: 30px 0; }
+    body #wrapper .column {
+      width: 45%;
+      display: inline-block;
+      vertical-align: top; }
+      body #wrapper .column p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 30px 0; }
+    body #wrapper #left {
+      margin-right: 40px; }
+  body footer {
+    background: #eee;
+    height: 90px;
+    border-top: 1px solid #D8D8D8;
+    margin-top: 7 0px; }
+    body footer #footer-wrapper {
+      width: 920px;
+      margin: 0 auto; }
+      body footer #footer-wrapper span {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 35px; }
+      body footer #footer-wrapper div {
+        display: inline-block;
+        vertical-align: middle;
+        float: right;
+        margin-top: 20px; }
+        body footer #footer-wrapper div ul {
+          list-style: none; }
+          body footer #footer-wrapper div ul li {
+            display: inline-block; }
+            body footer #footer-wrapper div ul li a:hover {
+              opacity: 0.5; }
+
+/*# sourceMappingURL=styles-02.css.map */

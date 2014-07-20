@@ -1,0 +1,41 @@
+﻿body {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; }
+  body #wrapper .book {
+    width: 145px;
+    display: inline-block;
+    vertical-align: top; }
+    body #wrapper .book figure {
+      margin: 0 auto;
+      padding: 0;
+      width: auto; }
+      body #wrapper .book figure a {
+        text-decoration: none;
+        color: #000; }
+      body #wrapper .book figure a:hover {
+        color: #999; }
+      body #wrapper .book figure figcaption {
+        font-size: 11px;
+        margin: 10px 0 5px 0;
+        text-transform: uppercase; }
+    body #wrapper .book .author {
+      font-size: 11px;
+      color: #666;
+      display: block; }
+    body #wrapper .book .price {
+      font-size: 11px;
+      color: #8F0509;
+      font-weight: bold; }
+    body #wrapper .book button {
+      margin-top: 5px;
+      width: 80%;
+      border: none;
+      outline: none;
+      background-image: url('../img/shopping-cart-inactive.png');
+      border-radius: 5px; }
+      body #wrapper .book button span {
+        font-size: 10px; }
+    body #wrapper .book button:hover {
+      cursor: pointer;
+      background-image: url('../img/shopping-cart-active.png'); }
+
+/*# sourceMappingURL=styles-01.css.map */

@@ -1,0 +1,121 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    header {
+        background: #eee;
+        height: 100px;
+        border-bottom: 1px solid #E6E6E6;
+
+        #header-wrapper {
+            background-color: #eee;
+            width: 920px;
+            margin: 0 auto;
+
+            img {
+                display: inline-block;
+                float: left;
+                margin-top: 15px;
+            }
+
+            nav {
+                display: block;
+                float: right;
+
+                ul {
+                    display: inline-block;
+                    float: left;
+
+                    #default {
+                        a {
+                            color: #F99600;
+                        }
+                    }
+
+                    li {
+                        display: inline-block;
+                        margin: 20px 25px;
+
+                        a {
+                            text-decoration: none;
+                            padding: 20px;
+                            border-radius: 10px;
+                            color: #818181;
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+
+                        a:hover {
+                            background-color: #CAD1D1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper {
+        clear: both;
+        width: 840px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: normal;
+            margin: 30px 0;
+        }
+
+        .column {
+            width: 45%;
+            display: inline-block;
+            vertical-align: top;
+
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                margin: 30px 0;
+            }
+        }
+
+        #left {
+            margin-right: 40px;
+        }
+    }
+
+    footer {
+        background: #eee;
+        height: 90px;
+        border-top: 1px solid #D8D8D8;
+        margin-top: 7   0px;
+
+        #footer-wrapper {
+            width: 920px;
+            margin: 0 auto;
+
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                margin-top: 35px;
+            }
+
+            div {
+                display: inline-block;
+                vertical-align: middle;
+                float: right;
+                margin-top: 20px;
+
+                ul{
+                    list-style: none;
+                    li{
+                        display: inline-block;
+
+                        a:hover{   
+                            opacity: 0.5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
