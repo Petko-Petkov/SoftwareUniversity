@@ -1,0 +1,13 @@
+html {
+    font-family: verdana;
+    font-size: 18px;
+}
+
+table {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.def{
+    background: orange;
+}
