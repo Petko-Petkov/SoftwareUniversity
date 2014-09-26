@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-InterestCalculator", "InterestCalculator\01-InterestCalculator.csproj", "{0A902B4C-5524-434A-BC74-164DEA4F77DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AsynchronousTimer", "AsynchronousTimer\02-AsynchronousTimer.csproj", "{CBFF1A32-6895-4070-A40A-894FD3496805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentClass", "StudentClass\StudentClass.csproj", "{5601FA3F-E4DE-4DEC-B325-4F04B77D9126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A902B4C-5524-434A-BC74-164DEA4F77DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A902B4C-5524-434A-BC74-164DEA4F77DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A902B4C-5524-434A-BC74-164DEA4F77DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A902B4C-5524-434A-BC74-164DEA4F77DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFF1A32-6895-4070-A40A-894FD3496805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFF1A32-6895-4070-A40A-894FD3496805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFF1A32-6895-4070-A40A-894FD3496805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFF1A32-6895-4070-A40A-894FD3496805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5601FA3F-E4DE-4DEC-B325-4F04B77D9126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5601FA3F-E4DE-4DEC-B325-4F04B77D9126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5601FA3F-E4DE-4DEC-B325-4F04B77D9126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5601FA3F-E4DE-4DEC-B325-4F04B77D9126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

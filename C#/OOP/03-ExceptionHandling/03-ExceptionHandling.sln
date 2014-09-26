@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-SquareRoot", "SquareRoot\01-SquareRoot.csproj", "{02EC77C6-2023-42E6-BAF7-02761658423F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-EnterNumbers", "EnterNumbers\02-EnterNumbers.csproj", "{9C5DA4DF-6B3D-49A0-83F6-61F5D113570B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02EC77C6-2023-42E6-BAF7-02761658423F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EC77C6-2023-42E6-BAF7-02761658423F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EC77C6-2023-42E6-BAF7-02761658423F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EC77C6-2023-42E6-BAF7-02761658423F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5DA4DF-6B3D-49A0-83F6-61F5D113570B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5DA4DF-6B3D-49A0-83F6-61F5D113570B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5DA4DF-6B3D-49A0-83F6-61F5D113570B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5DA4DF-6B3D-49A0-83F6-61F5D113570B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
